@@ -1,0 +1,24 @@
+@Host = http://localhost:5000
+
+GET {{Host}}/students
+Accept: application/json
+
+###
+GET {{Host}}/teachers
+Accept: application/json
+
+###
+GET {{Host}}/anything
+Accept: application/json
+
+###
+GET {{Host}}/api/data
+Accept: application/json
+
+###
+GET {{Host}}/?admin=true
+Accept: application/json
+
+###
+GET {{Host}}/ 
+Accept: application/json
